@@ -1,4 +1,4 @@
-# Getting Started with Web Developer Interview
+# Getting Started with ReactJS App
 
 1) Download the project from github
 2) Open the terminal/ Command Prompt
