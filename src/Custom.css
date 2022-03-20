@@ -1,0 +1,69 @@
+.suggestion-wrapper {
+    top: 50%;
+    left: 50%;
+    margin:0 auto;
+}
+.suggestion {
+    cursor: pointer;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.suggestion:hover {
+    color: #0096FF;
+}
+
+.data {
+    margin-left: -40px; 
+    z-index: 100;
+}
+
+/* hide the blue outline */
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
+.btn-pos {
+    position:relative;
+    z-index:1;
+    left: -36px;
+}
+
+.main {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+    top:45px;
+}
+
+.form-control {
+    z-index: auto !important;
+    border-right: 0 !important;
+}
+
+.input-group-text {
+    border-left: 0 !important;
+    background-color: #fff;
+}
+
+input[type=text]:focus {
+    border: 1px solid #ccc;
+  }
+
+.close-btn {
+    cursor: pointer;
+}
+
+.dotted-line {
+    padding-bottom: 10px;
+    border-bottom: 1px dashed grey;
+}
+
+.dotted-line:last-child {
+    border-bottom: none;
+}
